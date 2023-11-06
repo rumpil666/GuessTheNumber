@@ -1,0 +1,53 @@
+@import url(normalize.css);
+@import url(./fonts/fonts.css);
+
+.page {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  min-width: 320px;
+  background-color: #000;
+  color: red;
+  font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.content__title {
+  margin: 10px auto;
+}
+
+.output {
+  margin: 10px auto;
+  padding: 0;
+  width: 80%;
+  list-style: none;
+}
+
+.form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  font-size: 30px;
+  background-color: grey;
+  color: red;
+  cursor: text;
+}
+
+
